@@ -27,7 +27,7 @@ db-design/
 
 ER図の元となるSQLファイルは*sql*ディレクトリに配置します。  
 ※ SQLファイルの命名パターンはFlywayの[サイト](https://www.red-gate.com/blog/database-devops/flyway-naming-patterns-matter)を確認  
-sqlディレクトリ以下にファイルを追加、または変更でER図の自動更新を行います。  
+sqlディレクトリ配下にファイルを追加、または変更でER図の自動更新を行います。  
 作成されたER図(HTML)は*html*ディレクトリ配下に出力されます。  
 ブラウザからは「http://localhost:10080」でアクセスできます。  
 ER図の手動更新は*refresh.sh*を実行します。
