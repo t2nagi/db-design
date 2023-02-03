@@ -13,6 +13,7 @@ Flyway、SchemaSpy、DB(PostgreSQL)の実行環境を構築します。
 ```shell
 $ # 実行
 $ git clone https://github.com/t2nagi/db-design.git
+$ cd ./db-design
 $ docker-compose up 
 ```
 ディレクトリ構成
