@@ -3,6 +3,8 @@ FROM flyway/flyway:9.14.1
 ARG SCHEMASPY_URL=https://github.com/schemaspy/schemaspy/releases/download/v6.1.0/schemaspy-6.1.0.jar
 ARG POSTGRES_DRIVER_VERSION=42.5.2
 
+ENV POSTGRES_DRIVER_VERSION=${POSTGRES_DRIVER_VERSION}
+
 RUN apt-get update && apt-get upgrade -y \
     && apt-get install -y graphviz fontconfig inotify-tools
 

@@ -36,6 +36,6 @@ services:
     container_name: web
     hostname: web
     ports:
-      - 10080:80
+      - 1080:80
     volumes:
       - ./html:/usr/share/nginx/html:ro
